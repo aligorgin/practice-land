@@ -1,6 +1,6 @@
 import React from "react";
-import logo from '../assets/logo.png';
-import author from '../assets/author.jpg';
+import logo from '../../assets/img/logo.png';
+import author from '../../assets/img/author.jpg';
 
 const FirstBlogPost = () => {
     return (

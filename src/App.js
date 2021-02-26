@@ -1,7 +1,11 @@
 import React from 'react';
-import FirstBlogPost from "./components/FirstBlogPost";
+import OmniFood from "./components/omniFood/OmniFood";
 
 const App =()=>{
-  return <FirstBlogPost/>;
+  return (
+      <div className='bg-white text-gray-800 font-openSans text-xl'>
+        <OmniFood/>
+      </div>
+  ) ;
 }
 export default App;
