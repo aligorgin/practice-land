@@ -1,12 +1,14 @@
 import React from 'react';
+import Navigation from "./Navigation";
 
 const Header = () => {
     return (
-        <header className='bg-hero h-screen bg-cover bg-center bg-black bg-opacity-40 relative'>
+        <header className='bg-hero h-screen bg-cover bg-center relative'>
             <div className='absolute inset-0 bg-black bg-opacity-70'>
+                <Navigation/>
                 <div className='absolute w-1140 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                     <h1 style={{wordSpacing: '4px'}}
-                        className='mb-5 leading-tight text-white text-5xl uppercase font-light tracking-wide wordspacing'>
+                        className='mb-5 leading-tight text-white text-5xl uppercase font-light tracking-wide'>
                         Goodbye junk food. <br/>
                         Hello super healthy meals.
                     </h1>
