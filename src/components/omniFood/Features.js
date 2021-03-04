@@ -16,7 +16,7 @@ const Features = () => {
                     Get food fast &mdash; not fast food.
                 </h2>
                 <div className='block h-0.5 bg-orange w-24 mx-auto mb-8'/>
-                <p style={centerText} className='leading-relaxed mb-5'>
+                <p style={centerText} className='leading-relaxed mb-10'>
                     Hello, we’re Omnifood, your new premium food delivery service.We know you’re always busy. No time
                     for
                     cooking. So let us take care of that, we’re really good at it, we promise!
@@ -28,7 +28,7 @@ const Features = () => {
                     <div className='p-3'>
                         <FontAwesomeIcon className='text-6xl block text-orange mb-2.5' icon={faInfinity}/>
                         <h3 className='font-light uppercase text-2xl mb-4'>Up to 365 days/year</h3>
-                        <p className='text-lg leading-relaxed'>Never cook again! We really mean that. Our subscription plans include up to 365 days/year
+                        <p className='text-lg leading-relaxed mb5'>Never cook again! We really mean that. Our subscription plans include up to 365 days/year
                             coverage. You can also choose to order more flexibly if that's your style.</p>
                     </div>
                     <div className='p-3'>
