@@ -1,9 +1,61 @@
 import React from 'react';
+import one from '../../assets/img/omnifood/1.jpg';
+import two from '../../assets/img/omnifood/2.jpg';
+import three from '../../assets/img/omnifood/3.jpg';
+import four from '../../assets/img/omnifood/4.jpg';
+import five from '../../assets/img/omnifood/5.jpg';
+import six from '../../assets/img/omnifood/6.jpg';
+import seven from '../../assets/img/omnifood/7.jpg';
+import eight from '../../assets/img/omnifood/8.jpg';
+
 
 const MealsSection =()=>{
     return(
         <section>
-
+            <ul className='w-full'>
+                <li className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={one} alt="Korean bibimbap with egg and vegetables"/>
+                    </figure>
+                </li>
+                <li className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={two} alt="Simple italian pizza with cherry tomatoes"/>
+                    </figure>
+                </li>
+                <li className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={three} alt="Chicken breast steak with vegetables"/>
+                    </figure>
+                </li>
+                <li className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={four} alt="Autumn pumpkin soup"/>
+                    </figure>
+                </li>
+            </ul>
+            <ul>
+                <li  className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={five} alt="Paleo beef steak with vegetables"/>
+                    </figure>
+                </li>
+                <li  className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={six} alt="Healthy baguette with egg and vegetables"/>
+                    </figure>
+                </li>
+                <li  className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={seven} alt="Burger with cheddar and bacon"/>
+                    </figure>
+                </li>
+                <li  className='block float-left w-1/4'>
+                    <figure className='w-full'>
+                        <img className='w-full h-auto' src={eight} alt="Granola with cherries and strawberries"/>
+                    </figure>
+                </li>
+            </ul>
         </section>
     )
 }
