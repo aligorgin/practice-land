@@ -34,7 +34,7 @@ const MealsSection =()=>{
                     </figure>
                 </li>
             </ul>
-            <ul>
+            <ul className='w-full'>
                 <li  className='block float-left w-1/4'>
                     <figure className='w-full overflow-hidden bg-black'>
                         <img className='w-full h-auto transform scale-125 hover:scale-100 transition duration-500 opacity-70 hover:opacity-100' src={five} alt="Paleo beef steak with vegetables"/>
@@ -55,6 +55,7 @@ const MealsSection =()=>{
                         <img className='w-full h-auto transform scale-125 hover:scale-100 transition duration-500 opacity-70 hover:opacity-100' src={eight} alt="Granola with cherries and strawberries"/>
                     </figure>
                 </li>
+                <div className='clear-both block h-0 invisible'>.</div>
             </ul>
         </section>
     )

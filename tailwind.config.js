@@ -8,7 +8,8 @@ module.exports = {
         backgroundColor: theme => ({
             ...theme('colors'),
             'orange': '#e67e22',
-            'Dorange': '#cf6d17'
+            'Dorange': '#cf6d17',
+            'wickyWhite':'#f4f4f4'
         }),
         borderColor: theme => ({
             ...theme('colors'),
