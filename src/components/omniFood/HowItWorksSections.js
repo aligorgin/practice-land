@@ -5,7 +5,7 @@ import androidApp from '../../assets/img/omnifood/download-app-android.png';
 
 const HowItWorksSection = () => {
     return (
-        <section className='pt-14 bg-wickyWhite'>
+        <section className='py-20 bg-wickyWhite'>
             <div className='max-w-1140 mx-auto'>
                 <h2 className='mb-8 text-center leading-tight text-4xl uppercase font-light'>How it works &mdash; Simple
                     as 1, 2, 3</h2>

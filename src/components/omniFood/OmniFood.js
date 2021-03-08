@@ -3,6 +3,7 @@ import Header from "./Header";
 import Features from "./Features";
 import MealsSection from "./MealsSection";
 import HowItWorksSection from "./HowItWorksSections";
+import Cities from "./Cities";
 
 const OmniFood = ()=>{
     return(
@@ -11,6 +12,7 @@ const OmniFood = ()=>{
             <Features/>
             <MealsSection/>
             <HowItWorksSection/>
+            <Cities/>
         </div>
     )
 }
