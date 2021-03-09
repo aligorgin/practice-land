@@ -1,11 +1,10 @@
 import React from 'react';
 import Navigation from "./Navigation";
-import hero from '../../assets/img/omnifood/hero.jpg';
 
 
 const Header = () => {
     return (
-        <header className='bg bg-hero h-screen bg-cover bg-center bg-fixed relative'>
+        <header className='bg-hero h-screen bg-cover bg-center bg-fixed relative '>
             <div className='absolute inset-0 bg-black bg-opacity-70'>
                 <Navigation/>
                 <div className='absolute w-1140 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>

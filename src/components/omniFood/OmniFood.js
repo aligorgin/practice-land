@@ -4,6 +4,7 @@ import Features from "./Features";
 import MealsSection from "./MealsSection";
 import HowItWorksSection from "./HowItWorksSections";
 import Cities from "./Cities";
+import Testimonials from "./Testimonials";
 
 const OmniFood = ()=>{
     return(
@@ -13,6 +14,7 @@ const OmniFood = ()=>{
             <MealsSection/>
             <HowItWorksSection/>
             <Cities/>
+            <Testimonials/>
         </div>
     )
 }

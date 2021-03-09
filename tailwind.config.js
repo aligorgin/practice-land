@@ -25,6 +25,7 @@ module.exports = {
         extend: {
             backgroundImage: theme => ({
                 'hero': "url('/src/assets/img/omnifood/hero.jpg')",
+                'backCustomer':"url('/src/assets/img/omnifood/back-customers.jpg')"
             }),
             padding: {
                 '13': '3.25rem',
