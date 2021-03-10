@@ -3,13 +3,15 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         fontFamily: {
-            'openSans': ['Open Sans', 'sans-serif']
+            'openSans': ['Open Sans', 'sans-serif'],
+            'lato':['Lato', 'sans-serif']
         },
         backgroundColor: theme => ({
             ...theme('colors'),
             'orange': '#e67e22',
             'Dorange': '#cf6d17',
-            'wickyWhite':'#f4f4f4'
+            'wickyWhite':'#f4f4f4',
+            'wickyyWhite':'#fcfcfc'
         }),
         borderColor: theme => ({
             ...theme('colors'),
