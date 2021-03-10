@@ -1,4 +1,7 @@
 import React from "react";
+import customer1 from '../../assets/img/omnifood/customer-1.jpg';
+import customer2 from '../../assets/img/omnifood/customer-2.jpg';
+import customer3 from '../../assets/img/omnifood/customer-3.jpg';
 
 const Testimonials = () => {
 
@@ -12,11 +15,34 @@ const Testimonials = () => {
                     <div className='h-0.5 w-24 bg-orange mb-16 block mx-auto'> </div>
                 </div>
 
-                <div className='grid grid-cols-1 lg:grid-cols-3 mx-auto max-w-1140 pb-24 text-white'>
+                <div className='grid gap-12 grid-cols-1 lg:grid-cols-3 mx-auto max-w-1140 pb-24 text-white pt-10'>
 
-                    <blockquote>
+                    <blockquote style={{minHeight:'180px'}} className='italic text text-lg relative leading-relaxed'>
+                        <span className='block text-7xl absolute -top-12 -left-5' >&#8220;</span>
                         Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so
                         Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite className='mt-8 flex items-center absolute bottom-0'>
+                            <img className='h-12 rounded-full mr-4' src={customer2} alt="customer 2 testimonials"/>
+                            Alberto Duncan
+                        </cite>
+                    </blockquote>
+
+                    <blockquote className='italic text text-lg relative leading-relaxed'>
+                        <span className='block text-7xl absolute -top-12 -left-5' >&#8220;</span>
+                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                        <cite className='mt-8 flex items-center '>
+                            <img className='h-12 rounded-full mr-4' src={customer3} alt="customer 3 testimonials"/>
+                            Joana Silva
+                        </cite>
+                    </blockquote>
+
+                    <blockquote className='italic text text-lg relative leading-relaxed'>
+                        <span className='block text-7xl absolute -top-12 -left-5' >&#8220;</span>
+                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                        <cite className='mt-8 flex items-center absolute bottom-0'>
+                            <img className='h-12 rounded-full mr-4' src={customer1} alt="customer 1 testimonials"/>
+                            Milton Chapman
+                        </cite>
                     </blockquote>
 
                 </div>
@@ -34,8 +60,8 @@ export default Testimonials;
 //
 // (Alberto Duncan)
 //
-// Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-//     (Joana Silva)
 //
-// I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-//     (Milton Chapman)
+//     ()
+//
+//
+//     ()
