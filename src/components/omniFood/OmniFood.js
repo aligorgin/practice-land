@@ -6,6 +6,7 @@ import HowItWorksSection from "./HowItWorksSections";
 import Cities from "./Cities";
 import Testimonials from "./Testimonials";
 import SignUp from "./SignUp";
+import Contact from "./Contact";
 
 const OmniFood = ()=>{
     return(
@@ -17,6 +18,7 @@ const OmniFood = ()=>{
             <Cities/>
             <Testimonials/>
             <SignUp/>
+            <Contact/>
         </div>
     )
 }

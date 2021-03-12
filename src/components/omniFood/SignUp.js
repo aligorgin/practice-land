@@ -13,7 +13,7 @@ const SignUp = () => {
 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-12  max-w-1140 mx-auto'>
 
-                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:-translate-y-7 transition duration-500'>
+                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:scale-110 transition duration-500'>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 style={{fontSize:"1.625rem"}} className='mb-7 uppercase '>Premium</h3>
                         <p className='text-7xl font-lato text-orange mb-5'> $399 <span className='text-xl font-openSans'>/ per month</span></p>
@@ -35,7 +35,7 @@ const SignUp = () => {
                         </a>
                     </div>
                 </div>
-                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:-translate-y-7 transition duration-500'>
+                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:scale-110 transition duration-500'>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 style={{fontSize:"1.625rem"}} className='mb-7 uppercase '>Premium</h3>
                         <p className='text-7xl font-lato text-orange mb-5'> $149 <span className='text-xl font-openSans'>/ per month</span></p>
@@ -57,7 +57,7 @@ const SignUp = () => {
                         </a>
                     </div>
                 </div>
-                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:-translate-y-7 transition duration-500'>
+                <div className='rounded-lg shadow-lg bg-white divide-y divide-gray-300 transform hover:scale-110 transition duration-500'>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 style={{fontSize:"1.625rem"}} className='mb-7 uppercase '>Premium</h3>
                         <p className='text-7xl font-lato text-orange mb-5'> $19 <span className='text-xl font-openSans'>/ per month</span></p>
