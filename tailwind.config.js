@@ -11,7 +11,7 @@ module.exports = {
             'orange': '#e67e22',
             'Dorange': '#cf6d17',
             'wickyWhite':'#f4f4f4',
-            'wickyyWhite':'#fcfcfc'
+            'wickyyWhite':'#fcfcfc',
         }),
         borderColor: theme => ({
             ...theme('colors'),
@@ -22,7 +22,11 @@ module.exports = {
         textColor: theme => ({
             ...theme('colors'),
             'orange': '#e67e22',
-            'Dorange': '#cf6d17'
+            'Dorange': '#cf6d17',
+            'googlePlus':'#db4437',
+            'facebook':'#1877f2',
+            'twitter':'#1da1f2',
+            'instagram':'#c32aa3',
         }),
         extend: {
             backgroundImage: theme => ({

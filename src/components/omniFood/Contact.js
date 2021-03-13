@@ -77,9 +77,3 @@ const Contact = () => {
 }
 
 export default Contact;
-
-// <a
-//     className='mr-4 inline-block py-2.5 px-8 rounded-full border border-solid border-orange text-white font-light bg-orange hover:bg-Dorange hover:border-Dorange transition-colors duration-300 '
-//     href="#">
-//     Sign Up now
-// </a>

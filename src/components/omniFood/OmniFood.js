@@ -7,9 +7,10 @@ import Cities from "./Cities";
 import Testimonials from "./Testimonials";
 import SignUp from "./SignUp";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
-const OmniFood = ()=>{
-    return(
+const OmniFood = () => {
+    return (
         <div className='bg-white text-gray-800 font-openSans text-xl font-normal'>
             <Header/>
             <Features/>
@@ -19,6 +20,7 @@ const OmniFood = ()=>{
             <Testimonials/>
             <SignUp/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }
