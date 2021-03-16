@@ -5,7 +5,7 @@ const Contact = () => {
         <section className='my-16'>
 
             <div className='max-w-1140 mx-auto'>
-                <h2 className='text-4xl uppercase font-light mb-8 text-center'>We're happy to hear from you</h2>
+                <h2 className='text-3xl lg:text-4xl uppercase font-light mb-8 text-center'>We're happy to hear from you</h2>
                 <div className='h-0.5 w-24 mx-auto bg-orange mb-8'> </div>
             </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                             </select>
                         </div>
 
-                        <div >
+                        <div>
                             <label htmlFor="news">Newsletter?</label>
                         </div>
 

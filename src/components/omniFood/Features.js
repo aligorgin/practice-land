@@ -12,11 +12,11 @@ const Features = () => {
     return (
         <section className='py-20'>
             <div className='max-w-1140 mx-auto'>
-                <h2 className='mb-8 text-center leading-tight text-4xl uppercase font-light'>
-                    Get food fast &mdash; not fast food.
+                <h2 className='mb-8 text-center leading-tight text-4xl uppercase font-light px-6 xl:px-0'>
+                    Get food fast <span className='hidden md:inline'>&mdash;</span> <br className='md:hidden'/> not fast food.
                 </h2>
                 <div className='block h-0.5 bg-orange w-24 mx-auto mb-8'/>
-                <p style={centerText} className='leading-relaxed mb-10'>
+                <p className='text-center lg;w-10/12 lg:mx-auto lg:text-2xl leading-relaxed mb-10'>
                     Hello, we’re Omnifood, your new premium food delivery service.We know you’re always busy. No time
                     for
                     cooking. So let us take care of that, we’re really good at it, we promise!
@@ -24,7 +24,7 @@ const Features = () => {
             </div>
 
             <div className='max-w-1140 mx-auto'>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                <div className='grid grid-cols-1 px-6 xl:px-0 md:grid-cols-2 lg:grid-cols-4'>
                     <div className='p-3'>
                         <FontAwesomeIcon className='text-6xl block text-orange mb-2.5' icon={faInfinity}/>
                         <h3 className='font-light uppercase text-2xl mb-4'>Up to 365 days/year</h3>
