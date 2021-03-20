@@ -7,7 +7,7 @@ const Testimonials = () => {
 
     return (
         <section className='bg-backCustomer bg-cover bg-fixed'>
-            <div className='bg-black bg-opacity-75'>
+            <div className='bg-black bg-opacity-75 p-4 sm:p-0'>
 
                 <div className='max-w-1140 mx-auto'>
                     <h2 className='text-white pt-16 mb-8 text-3xl lg:text-4xl leading-tight font-light uppercase text-center'>Our
