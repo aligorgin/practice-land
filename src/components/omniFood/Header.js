@@ -1,15 +1,33 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Navigation from "./Navigation";
+import Sticky from "./Sticky";
 
 
 const Header = () => {
+
+    const [red,setRed] = useState('text-white')
+
+    const handleH1color = ()=>{
+        setRed((prevState)=>{
+            if (prevState === 'text-white'){
+                return 'text-orange';
+            }else {
+                return 'text-white';
+            }
+        })
+    }
+
     return (
         <header className='bg-hero h-screen bg-cover bg-center bg-fixed relative '>
             <div className='absolute inset-0 bg-black bg-opacity-70'>
                 <Navigation/>
-                <div className='absolute w-full px-6 xl:w-1140 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
+
+                <div
+                    className='absolute w-full px-6 xl:w-1140 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <h1 style={{wordSpacing: '4px'}}
-                        className='mb-5 leading-tight text-white text-3xl md:text-4xl xl:text-5xl uppercase font-light tracking-wide'>
+                        className={`mb-5 leading-tight ${red} text-3xl md:text-4xl xl:text-5xl uppercase font-light tracking-wide`}
+                        onClick={handleH1color}
+                    >
                         Goodbye junk food. <br/>
                         Hello super healthy meals.
                     </h1>
@@ -25,6 +43,7 @@ const Header = () => {
                     </a>
                 </div>
             </div>
+            <Sticky/>
 
         </header>
     )
