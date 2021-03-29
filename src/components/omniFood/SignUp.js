@@ -4,7 +4,7 @@ import {faCheck , faTimes} from "@fortawesome/free-solid-svg-icons";
 
 const SignUp = () => {
     return (
-        <section className='py-16 bg-wickyWhite'>
+        <section className='py-16 bg-wickyWhite' id='signUpSection'>
 
             <div className='max-w-1140 mx-auto'>
                 <h2 className='text-4xl md:text-5xl leading-tight font-light mb-8 text-center'>Start eating healthy today</h2>

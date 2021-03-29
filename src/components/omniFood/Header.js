@@ -1,21 +1,23 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import Navigation from "./Navigation";
 import Sticky from "./Sticky";
+import {Link} from 'react-scroll';
 
 
 const Header = () => {
 
-    const [red,setRed] = useState('text-white')
+    const [red, setRed] = useState('text-white')
 
-    const handleH1color = ()=>{
-        setRed((prevState)=>{
-            if (prevState === 'text-white'){
+    const handleH1color = () => {
+        setRed((prevState) => {
+            if (prevState === 'text-white') {
                 return 'text-orange';
-            }else {
+            } else {
                 return 'text-white';
             }
         })
     }
+
 
     return (
         <header className='bg-hero h-screen bg-cover bg-center bg-fixed relative '>
@@ -31,16 +33,31 @@ const Header = () => {
                         Goodbye junk food. <br/>
                         Hello super healthy meals.
                     </h1>
-                    <a
-                        className='mt-6 md:mt-0 mr-4 inline-block py-1.5 px-6 text-lg md:py-2.5 md:px-8 rounded-full border border-solid border-orange text-white font-light bg-orange hover:bg-Dorange hover:border-Dorange transition-colors duration-300 '
-                        href="#">
-                        I’m hungry
-                    </a>
-                    <a
-                        className='mt-6 md:mt-0 inline-block py-1.5 px-6 text-lg md:py-2.5 md:px-8 rounded-full border border-solid border-orange text-orange font-light hover:bg-Dorange hover:text-white hover:border-Dorange transition-colors duration-300 '
-                        href="#">
-                        Show me more
-                    </a>
+                    <Link
+                        to='signUpSection'
+                        smooth={true}
+                        spy={true}
+                        duration={1000}
+                    >
+                        <a
+                            className='mt-6 md:mt-0 mr-4 inline-block py-1.5 px-6 text-lg md:py-2.5 md:px-8 rounded-full border border-solid border-orange text-white font-light bg-orange hover:bg-Dorange hover:border-Dorange transition-colors duration-300 '
+                            href="#signUp">
+                            I’m hungry
+                        </a>
+                    </Link>
+                    <Link
+                        to='featuresSection'
+                        smooth={true}
+                        spy={true}
+                        duration={1000}
+                    >
+                        <a
+                            className='mt-6 md:mt-0 inline-block py-1.5 px-6 text-lg md:py-2.5 md:px-8 rounded-full border border-solid border-orange text-orange font-light hover:bg-Dorange hover:text-white hover:border-Dorange transition-colors duration-300 '
+                            href="#features">
+                            Show me more
+                        </a>
+                    </Link>
+
                 </div>
             </div>
             <Sticky/>

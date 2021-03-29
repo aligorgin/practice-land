@@ -9,7 +9,7 @@ import {faTwitter} from "@fortawesome/free-brands-svg-icons";
 
 const Cities = () => {
     return (
-        <section className='my-20'>
+        <section className='my-20' id='citiesSection'>
 
             <div className='max-w-1140 mx-auto'>
                 <h2 className='mb-8 text-center leading-tight text-3xl lg:text-4xl uppercase font-light'>We're currently in these

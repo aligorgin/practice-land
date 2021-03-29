@@ -1,16 +1,11 @@
-import React from "react";
+import React ,{useRef} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInfinity, faClock, faCarrot, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 
 const Features = () => {
 
-    const centerText = {
-        marginLeft: '13%',
-        width: '74%'
-    };
-
     return (
-        <section className='py-20'>
+        <section className='py-20' id='featuresSection' >
             <div className='max-w-1140 mx-auto'>
                 <h2 className='mb-8 text-center leading-tight text-4xl uppercase font-light px-6 xl:px-0'>
                     Get food fast <span className='hidden md:inline'>&mdash;</span> <br className='md:hidden'/> not fast food.

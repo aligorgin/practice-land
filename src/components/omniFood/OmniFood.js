@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 const OmniFood = () => {
     return (
-        <div className='bg-white text-gray-800 font-openSans text-xl font-normal'>
+        <div className='bg-white s text-gray-800 font-openSans text-xl font-normal'>
             <Header/>
             <Features/>
             <MealsSection/>
