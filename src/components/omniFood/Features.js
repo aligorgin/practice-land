@@ -1,8 +1,15 @@
-import React ,{useRef} from "react";
+import React ,{useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInfinity, faClock, faCarrot, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Features = () => {
+
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    },[])
+
 
     return (
         <section className='py-20' id='featuresSection' >
@@ -18,7 +25,7 @@ const Features = () => {
                 </p>
             </div>
 
-            <div className='max-w-1140 mx-auto'>
+            <div data-aos='fade-up' className='max-w-1140 mx-auto'>
                 <div className='grid grid-cols-1 px-6 xl:px-0 md:grid-cols-2 lg:grid-cols-4'>
                     <div className='p-3'>
                         <FontAwesomeIcon className='text-6xl block text-orange mb-2.5' icon={faInfinity}/>

@@ -11,7 +11,7 @@ const HowItWorksSection = () => {
                     as 1, 2, 3</h2>
                 <div className='block h-0.5 bg-orange w-24 mx-auto mb-16'> </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-28 max-w-1140 mx-auto">
+            <div data-aos='fade-left' className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-28 max-w-1140 mx-auto">
 
                 <div className='flex justify-center items-center md:block'>
                     <img className='w-5/12 md:float-right' src={appIphone} alt="omni food app on iphone"/>

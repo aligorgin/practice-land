@@ -35,7 +35,7 @@ const SignUp = () => {
                         </a>
                     </div>
                 </div>
-                <div className='mx-4 mb-4 lg:mb-0 xl:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform hover:scale-110 transition duration-500'>
+                <div data-aos='slide-right' className='mx-4 mb-4 lg:mb-0 xl:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform '>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 className='text-2xl xl:text-2.5xl mb-7 uppercase '>Pro</h3>
                         <p className='text-6xl xl:text-7xl font-lato text-orange mb-5'> $149 <span className='text-lg xl:text-xl font-openSans'>/ per month</span></p>
@@ -57,7 +57,7 @@ const SignUp = () => {
                         </a>
                     </div>
                 </div>
-                <div className='mx-4 xl:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform hover:scale-110 transition duration-500'>
+                <div data-aos='slide-right' className='mx-4 xl:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform '>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 className='text-2xl xl:text-2.5xl mb-7 uppercase '>starter</h3>
                         <p className='text-6xl xl:text-7xl font-lato text-orange mb-5'> $19 <span className='text-lg xl:text-xl font-openSans'>/ per month</span></p>
