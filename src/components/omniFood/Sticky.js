@@ -43,7 +43,7 @@ const Sticky = () => {
             <nav className='fixed top-0 left-0 w-full bg-white shadow-lg z-50'>
                 <div className='pl-6 w-full xl:pl-0 xl:max-w-1140 mx-auto'>
                     <a href="#"><img className='h-14 w-auto float-left my-2' src={Logo} alt="omnifood logo"/></a>
-                    <ul className='float-right mt-6 md:pr-6 xl:pr-0'>
+                    <ul className='hidden lg:inline float-right mt-6 md:pr-6 xl:pr-0'>
                         <Link
                             to='featuresSection'
                             smooth={true}
