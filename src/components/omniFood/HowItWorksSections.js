@@ -17,7 +17,7 @@ const HowItWorksSection = () => {
                     <img className='w-5/12 md:float-right' src={appIphone} alt="omni food app on iphone"/>
                 </div>
 
-                <div data-aos='fade-up' className='mt-8 ml-6 md:ml-0'>
+                <div className='mt-8 ml-6 md:ml-0'>
                     <div className='mb-12'>
                         <div className='text-orange border-2 border-solid border-orange inline-block rounded-full h-10 w-10 text-xl  lg:h-14 lg:w-14 text-center p-1 float-left lg:text-3xl mr-6' >1</div>
                         <p className='overflow-hidden text-xl leading-normal'>Choose the subscription plan that best fits your needs and sign up today. </p>
