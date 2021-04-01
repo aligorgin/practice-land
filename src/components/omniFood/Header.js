@@ -23,7 +23,6 @@ const Header = () => {
         <header className='bg-hero h-screen bg-cover bg-center bg-fixed relative '>
             <div className='absolute inset-0 bg-black bg-opacity-70'>
                 <Navigation/>
-
                 <div
                     className='absolute w-full px-6 xl:w-1140 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <h1 style={{wordSpacing: '4px'}}

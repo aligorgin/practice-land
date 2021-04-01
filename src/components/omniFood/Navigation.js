@@ -1,6 +1,7 @@
 import React from "react";
 import whiteLogo from "../../assets/img/omnifood/logo-white.png";
 import {Link} from 'react-scroll';
+import Lines from "./BurgerMenu/Lines";
 
 
 const Navigation = () => {
@@ -9,6 +10,7 @@ const Navigation = () => {
             <div className='pl-6 w-full xl:pl-0 xl:max-w-1140 mx-auto'>
                 <img className='h-24 w-auto float-left mt-5' src={whiteLogo} alt="omnifood logo"/>
                 <ul className='float-right mt-14 hidden lg:block md:pr-6 xl:pr-0'>
+                    <Lines/>
                     <Link
                         to='featuresSection'
                         smooth={true}
@@ -16,7 +18,7 @@ const Navigation = () => {
                         duration={1000}
                     >
                         <li className='inline-block ml-10'><a
-                            className='inline-block ml-10 py-2 border-b-2 border-transparent transition-colors duration-300 text-white uppercase text-lg hover:border-2 hover:border-orange'
+                            className='py-2 border-b-2 border-transparent transition-colors duration-300 text-white uppercase text-lg hover:border-2 hover:border-orange'
                             href="#">Food delivery</a>
                         </li>
                     </Link>
