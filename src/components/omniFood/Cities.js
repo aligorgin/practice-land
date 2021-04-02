@@ -17,7 +17,7 @@ const Cities = () => {
                 <div className='block h-0.5 bg-orange w-24 mx-auto mb-16'> </div>
             </div>
 
-            <div data-aos='zoom-out' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-1140 mx-auto gap-12 px-4 xl:px-0'>
+            <div data-aos='zoom-in' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-1140 mx-auto gap-12 px-4 xl:px-0'>
 
                 <div >
                     <img className='w-full lg:w-96 h-auto mb-5' src={lisbon} alt="lisbon"/>

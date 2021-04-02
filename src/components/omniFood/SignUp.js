@@ -34,7 +34,7 @@ const SignUp = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-12  max-w-1140 mx-auto'>
 
                 <div
-                    data-aos={`${windowWidth <1024?'slide-left':''}`}
+                    data-aos={`${windowWidth <1024?'fade-down':''}`}
                     className='mb-4 mx-4 sm:w-8/12 sm:mx-auto lg:w-auto lg:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform hover:scale-110 transition duration-100'>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 className='text-2xl xl:text-2.5xl mb-7 uppercase '>Premium</h3>

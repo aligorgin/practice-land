@@ -15,7 +15,7 @@ const Testimonials = () => {
                     <div className='h-0.5 w-24 bg-orange mb-16 block mx-auto'> </div>
                 </div>
 
-                <div data-aos='slide-left' className='grid gap-36 lg:gap-12 grid-cols-1 lg:grid-cols-3 mx-auto max-w-1140 pb-24 text-white pt-10 px-4 lg:px-0'>
+                <div data-aos='flip-right' className='grid gap-36 lg:gap-12 grid-cols-1 lg:grid-cols-3 mx-auto max-w-1140 pb-24 text-white pt-10 px-4 lg:px-0'>
 
                     <blockquote style={{minHeight:'180px'}} className='italic text text-lg relative leading-relaxed lg:ml-4 xl:ml-0'>
                         <span className='inline text-7xl absolute -top-20 -left-3 lg:-left-5' >&#8220;</span>

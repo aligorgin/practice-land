@@ -1,12 +1,13 @@
 import React from 'react';
-// import OmniFood from "./components/omniFood/OmniFood";
-import CantClickMe from "./components/Can't Click me/CantClickMe";
+import OmniFood from "./components/omniFood/OmniFood";
 
-const App =()=>{
-  return (
-        // <OmniFood/>
-      <CantClickMe/>
 
-  ) ;
+const App = () => {
+    return (
+        <div>
+            <OmniFood/>
+        </div>
+
+    );
 }
 export default App;
