@@ -65,7 +65,7 @@ const SignUp = () => {
                     </div>
                 </div>
                 <div
-                    data-aos={`${windowWidth<1024?'':'slide-left'}`}
+                    data-aos={`${windowWidth<1024?'':'fade-right'}`}
                     className='mb-4 mx-4 sm:w-8/12 sm:mx-auto lg:w-auto lg:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform '>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 className='text-2xl xl:text-2.5xl mb-7 uppercase '>Pro</h3>
@@ -96,7 +96,7 @@ const SignUp = () => {
                     </div>
                 </div>
                 <div
-                    data-aos={`${windowWidth<1024?'':'slide-left'}`}
+                    data-aos={`${windowWidth<1024?'':'fade-right'}`}
                     className='mb-4 mx-4 sm:w-8/12 sm:mx-auto lg:w-auto lg:mx-0 rounded-lg shadow-lg bg-white divide-y divide-gray-300 lg:transform '>
                     <div className='p-4 bg-wickyyWhite'>
                         <h3 className='text-2xl xl:text-2.5xl mb-7 uppercase '>starter</h3>

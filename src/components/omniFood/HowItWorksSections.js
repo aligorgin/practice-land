@@ -4,6 +4,16 @@ import downloadApp from '../../assets/img/omnifood/download-app.svg';
 import androidApp from '../../assets/img/omnifood/download-app-android.png';
 
 const HowItWorksSection = () => {
+
+    let OSName = '';
+
+    const detectingOs = () => {
+        if (navigator.userAgent.indexOf('iPhone OS') !== -1) OSName = 'IOS';
+        if (navigator.userAgent.indexOf('Android') !== -1) OSName = 'Android';
+    }
+
+    detectingOs();
+
     return (
         <section className='py-20 bg-wickyWhite' id='howItSection'>
             <div className='max-w-1140 mx-auto'>
@@ -31,10 +41,10 @@ const HowItWorksSection = () => {
                         <p className='overflow-hidden text-xl leading-normal pr-3'>Enjoy your meal after less than 20 minutes. See you the next time! </p>
                     </div>
                     <div className='text-center md:text-left'>
-                        <a href="#">
+                        <a href="#" className={`${OSName === 'Android' ? 'hidden' : ''}`}>
                             <img className='h-12 w-auto mr-2.5 inline-block mx-auto' src={downloadApp} alt="App Store button"/>
                         </a>
-                        <a href="#">
+                        <a href="#" className={`${OSName === 'IOS' ? 'hidden' : ''}`}>
                             <img className='h-12 w-auto mr-2.5 inline-block mx-auto' src={androidApp} alt="play Store button"/>
                         </a>
                     </div>
