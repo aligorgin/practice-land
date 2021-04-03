@@ -2,18 +2,7 @@ import React,{useState,useEffect} from "react";
 import {Link} from "react-scroll";
 
 const SideDrawer = ({click})=>{
-    const [height,setHeight]=useState(window.innerHeight);
 
-    useEffect(()=>{
-        window.addEventListener('resize',()=>{setHeight(window.innerHeight)})
-
-        return()=>{
-            window.removeEventListener('resize',()=>{setHeight(window.innerHeight)})
-        }
-    },[]);
-    console.log('height',height)
-
-    // style={{height:`${height}px`}}
     return(
         <nav className={`fixed lg:hidden h-full bg-red-50 shadow-md top-0 right-0 w-2/3 z-40 transform transition duration-500 ${click ? 'translate-x-0 ease-in' : 'translate-x-full ease-out'}`}>
             <ul className='flex flex-col items-center'>

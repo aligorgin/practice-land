@@ -1,13 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 
-const Backdrop = ({click}) => {
+const Backdrop = ({click, handleClick}) => {
 
-        // todo :
-        // add click true when user click to backdrop fir closing menu
+    // gtr : connecting child to parent with props
 
-    console.log(click)
+    const [clickedBackdrop, setClickedBackdrop] = useState(click);
+
+    const onclick = () => {
+        setClickedBackdrop(false);
+        handleClick(clickedBackdrop);
+    }
+
     return (
         <div
+            onClick={onclick}
             className={`${click ? 'fixed lg:hidden' : 'hidden'} w-full h-full bg-black opacity-20 z-30 top-0 left-0`}
         />
     )

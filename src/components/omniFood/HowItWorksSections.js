@@ -20,15 +20,15 @@ const HowItWorksSection = () => {
                 <div className='mt-8 ml-6 md:ml-0'>
                     <div className='mb-12'>
                         <div className='text-orange border-2 border-solid border-orange inline-block rounded-full h-10 w-10 text-xl  lg:h-14 lg:w-14 text-center p-1 float-left lg:text-3xl mr-6' >1</div>
-                        <p className='overflow-hidden text-xl leading-normal'>Choose the subscription plan that best fits your needs and sign up today. </p>
+                        <p className='overflow-hidden text-xl leading-normal pr-3'>Choose the subscription plan that best fits your needs and sign up today. </p>
                     </div>
                     <div className='mb-12'>
                         <div className='text-orange border-2 border-solid border-orange inline-block rounded-full h-10 w-10 text-xl  lg:h-14 lg:w-14 text-center p-1 float-left lg:text-3xl mr-6' >2</div>
-                        <p className='overflow-hidden text-xl leading-normal'>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                        <p className='overflow-hidden text-xl leading-normal pr-3'>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
                     </div>
                     <div className='mb-20'>
                         <div className='text-orange border-2 border-solid border-orange inline-block rounded-full h-10 w-10 text-xl  lg:h-14 lg:w-14 text-center p-1 float-left lg:text-3xl mr-6' >3</div>
-                        <p className='overflow-hidden text-xl leading-normal'>Enjoy your meal after less than 20 minutes. See you the next time! </p>
+                        <p className='overflow-hidden text-xl leading-normal pr-3'>Enjoy your meal after less than 20 minutes. See you the next time! </p>
                     </div>
                     <div className='text-center md:text-left'>
                         <a href="#">

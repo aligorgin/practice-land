@@ -3,8 +3,6 @@ import Backdrop from "./Backdrop";
 import SideDrawer from "./SideDrawer";
 
 const Lines = (props) => {
-    console.log(props.for)
-
     const [click, setClick] = useState(false);
 
     useEffect(() => {
@@ -17,12 +15,16 @@ const Lines = (props) => {
                 setClick(false)
             })
         }
-    }, [])
+    }, []);
+
+    const handleClick = (booleanClickedBackdrop) => {
+        setClick(booleanClickedBackdrop);
+    }
 
     return (
         <div>
             <SideDrawer click={click}/>
-            <Backdrop click={click}/>
+            <Backdrop click={click} handleClick={handleClick}/>
             <div
                 className={`absolute top-${props.for === 'sticky' ? 6 : 12} right-${props.for === 'sticky' ? 9 : 10} z-50 lg:hidden `}>
                 <div className={`relative w-10 h-8 border-0 bg-transparent outline-none cursor-pointer`}
