@@ -31,9 +31,8 @@ const Sticky = () => {
 
 
     const showingSticky = () => {
-        if (windowScrollY > windowHeight) {
-            return true;
-        }
+        if (windowScrollY > windowHeight) return true;
+
     }
 
     showingSticky();
