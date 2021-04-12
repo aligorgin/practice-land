@@ -5,14 +5,12 @@ import androidApp from '../../assets/img/omnifood/download-app-android.png';
 
 const HowItWorksSection = () => {
 
-    // todo :
-    //      -big image of android or IOS on detected IOS
-
     let OSName = '';
 
     const detectingOs = () => {
         if (navigator.userAgent.indexOf('iPhone OS') !== -1) OSName = 'IOS';
         if (navigator.userAgent.indexOf('Android') !== -1) OSName = 'Android';
+        if (navigator.userAgent.indexOf('iPad') !== -1) OSName = 'iPad';
     }
 
     detectingOs();
@@ -55,12 +53,16 @@ const HowItWorksSection = () => {
                     </div>
                     <div className='text-center md:text-left'>
                         <a href="#" className={`${OSName === 'Android' ? 'hidden' : ''}`}>
-                            <img className={`h-${OSName === 'IOS' || OSName === 'Android' ? '16':'12'} w-auto mr-2.5 inline-block mx-auto`} src={downloadApp}
-                                 alt="App Store button"/>
+                            <img
+                                className={`h-${OSName === 'IOS' || OSName === 'Android' || OSName === 'iPad' ? '16' : '12'} w-auto mr-2.5 inline-block mx-auto`}
+                                src={downloadApp}
+                                alt="App Store button"/>
                         </a>
-                        <a href="#" className={`${OSName === 'IOS' ? 'hidden' : ''}`}>
-                            <img className={`h-${OSName === 'IOS' || OSName === 'Android' ? '16':'12'} w-auto mr-2.5 inline-block mx-auto`} src={androidApp}
-                                 alt="play Store button"/>
+                        <a href="#" className={`${OSName === 'IOS' || OSName === 'iPad' ? 'hidden' : ''}`}>
+                            <img
+                                className={`h-${OSName === 'IOS' || OSName === 'Android' || OSName === 'iPad' ? '16' : '12'} w-auto mr-2.5 inline-block mx-auto`}
+                                src={androidApp}
+                                alt="play Store button"/>
                         </a>
                     </div>
 

@@ -17,7 +17,7 @@ const Features = () => {
                 <h2 className='mb-8 text-center text-4xl uppercase font-light px-6 xl:px-0'>
                     Get food fast<span className='hidden md:inline'>&nbsp;&mdash;&nbsp;</span>
                     <br className='sm:hidden'/>
-                    <div className='pt-3 sm:pt-0 sm:inline-block'>not fast food.</div>
+                    <div className='pt-3 sm:pt-0 sm:inline-block'><span className='hidden sm:inline md:hidden'>&nbsp;</span> not fast food.</div>
                 </h2>
                 <div className='block h-0.5 bg-orange w-24 mx-auto mb-8'/>
                 <p className='text-center px-4 xl:px-0  lg:mx-auto lg:text-2xl leading-relaxed mb-10'>
