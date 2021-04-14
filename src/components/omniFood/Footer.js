@@ -11,6 +11,7 @@ const Footer = () => {
     const detectingOs = () => {
         if (navigator.userAgent.indexOf('iPhone OS') !== -1) OSName = 'IOS';
         if (navigator.userAgent.indexOf('Android') !== -1) OSName = 'Android';
+        if (navigator.userAgent.indexOf('iPad') !== -1) OSName = 'iPad';
     }
 
     detectingOs();
@@ -30,7 +31,7 @@ const Footer = () => {
                                 <a href="#">Press</a></li>
                             <li className={`ml-8 text-base ${OSName === 'Android' ? 'hidden' : ''} md:text-xl text-gray-500 hover:text-white transition duration-300`}>
                                 <a href="#">IOS App</a></li>
-                            <li className={`ml-8 text-base ${OSName === 'IOS' ? 'hidden' : ''} md:text-xl text-gray-500 hover:text-white transition duration-300`}>
+                            <li className={`ml-8 text-base ${OSName === 'IOS' || OSName === 'iPad' ? 'hidden' : ''} md:text-xl text-gray-500 hover:text-white transition duration-300`}>
                                 <a href="#">Android App</a></li>
                         </ul>
                     </div>
@@ -47,7 +48,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <p className='text-base lg:text-2xl text-center text-white pb-16 text-gray-500'>Copyright &copy; 2015 by
+                <p className='text-base lg:text-xl text-center text-white pb-16 text-gray-500'>Copyright &copy; 2015 by
                     Omnifood. All rights reserved</p>
             </div>
         </footer>

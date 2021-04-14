@@ -11,11 +11,10 @@ import Footer from "./Footer";
 
 const OmniFood = () => {
 
-    // useEffect(()=>{
-    //
-    // },[])
+    // gtr : document title
+
     document.title = 'Omnifood';
-    console.log(document.link)
+
 
     return (
         <div className='bg-white s text-gray-800 font-openSans text-xl font-normal'>
